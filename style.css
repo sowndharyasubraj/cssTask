@@ -10,8 +10,8 @@
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
-    padding-left:8%;
-    padding-right:8%;
+    padding-left:6%;
+    padding-right:6%;
     box-sizing:border-box;
 }.navbar{
      height:12%;
@@ -31,7 +31,7 @@
 nav {
     flex: 1;
     text-align: right;
-    transition: transform 0.5s;
+    
 }
 nav ul li{
     list-style:none;
@@ -42,13 +42,17 @@ nav ul li{
         text-decoration: none;
         color: white;
         font-size: 18px;
-        text-decoration:underline overline #bf9;   
+          
     }
      
 .row{
     display:flex;
+    width:100px;
     height:88%;
     align-items:center;
+    padding-right:5%;
+    padding-left:5%;
+
 }
 .col{
     flex-basis:50%;
@@ -119,6 +123,7 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
+
     background-image: url(parrot.jpeg);
     background-position: center;
     background-size: cover;
